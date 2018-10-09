@@ -2,7 +2,7 @@
 
 O sistema tem como objetivo o controle de gestão e automação de agrosetores. Inicialmente será focada a parte da maternidade de uma granja suína.
 
-##RF-01 Cadastrar status de usuário
+## RF-01 Cadastrar status de usuário
 
 O sistema deve cadastrar status do usuário solicitando as seguintes informações:
 
@@ -21,7 +21,7 @@ se não exibir mensagem de erro informando qual foi erro.
 
 Nenhuma.
 
-##RF-02 Cadastrar tipo de conta
+## RF-02 Cadastrar tipo de conta
 
 O sistema deve cadastrar tipo de conta solicitando as seguintes informações:
 
