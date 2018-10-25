@@ -1,0 +1,147 @@
+<%- include('components/includesDeFrameworks/bootstrap', {escopo: "Login"}); %>
+    <%- include('components/navbar', {escopo: "Login"}); %>
+        <link rel="stylesheet" type="text/css" href='/stylesheets/tela_inicial.css' />
+
+        <body>
+
+            <div class=" ">
+                <div class="row justify-content-center text-center">
+
+                    <div class="">
+
+                        <nav id="sidebar" style="margin-top: 40px">
+                            <div class="sidebar-header">
+                                <h3>GranjerJS</h3>
+                            </div>
+
+                            <ul class="list-unstyled components">
+                                <p>Dummy Heading</p>
+                                <li class="active">
+                                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+                                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                                        <li>
+                                            <a href="#">Home 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Home 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Home 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+                                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                                        <li>
+                                            <a href="#">Page 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Page 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Page 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+
+                            <ul class="list-unstyled CTAs">
+                                <li>
+                                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                                </li>
+                                <li>
+                                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="container_cartoes">
+
+
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6  "></div>
+                    <div class="col-lg-4 col-md-4 col-sm-3 ">
+
+                    <%- include('components/cartao_inicio/cartao_inicio',{dados:{titulo:"FFF"}}); %>
+
+
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-3 ">
+                        <div class="card cartao_opcoes text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+                <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6  "></div>
+                <div class="col-lg-4 col-md-4 col-sm-3 ">
+
+                    <div class="card cartao_opcoes text-white ">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-3 ">
+                    <div class="card cartao_opcoes text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            </div>
+
+
+
+        </body>

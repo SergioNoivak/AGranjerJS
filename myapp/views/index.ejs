@@ -1,15 +1,17 @@
 
 <%- include('components/includesDeFrameworks/bootstrap', {escopo: "Login"}); %>
 <%- include('components/navbar', {escopo: "Login"}); %>
+<link rel="stylesheet" type="text/css"  href='/stylesheets/index.css'/>
 
-    <div class="container">
-      <div class="row" id="pwd-container">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
+    <div class="container-fluid">
+      <div class="row justify-content-center" id="pwd-container">
+        <div class="col-lg-3 col-sm-1"></div>  
+      <div class="col-lg-6 col-sm-10 text-center mt-5 ">
         <%- include('components/cartaoDeUsuario', {escopo: "Login"}); %>
         </div>
-        <div class="col-md-4"></div>
-      </div>
+        <div class="col-lg-3 col-sm-1"></div>  
+
+        </div>
       <p>
         <br>
         <br>
